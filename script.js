@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-fs.readFile('./text.txt', (err, data) => {
+fs.readFile('./input.txt', (err, data) => {
 	console.time('timing');
 	if(err){
 		console.log(err);
